@@ -1,0 +1,1 @@
+Cambiar _vimrc por .vimrc para hacer uso de este archivo.

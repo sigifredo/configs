@@ -1,0 +1,1 @@
+Cambiar _bashrc por .bashrc para hacer uso de este archivo.
