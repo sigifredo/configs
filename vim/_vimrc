@@ -1,1 +1,4 @@
 syntax on
+map <F2> :echo 'Hora actual: ' . strftime('%c')<CR>
+map <F3> :!cmake ..<CR>
+map <F4> :!make<CR>
