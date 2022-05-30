@@ -11,11 +11,11 @@ Agrega al archivo **package.json** lo siguiente:
 ```json
 "scripts": {
     ...
+    "prettier": "prettier --write \"{,**/}*.{md,json,html,js,ts,scss,java}\"",
 },
 "lint-staged": {
     "{,**/}*.{md,json,html,js,ts,scss,java,vue}": "prettier --write",
     "*.{js,css,md}": "prettier --write",
-    "*.js": "eslint --cache --fix"
 },
 "dependencies": {
     ...
