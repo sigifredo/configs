@@ -3,7 +3,7 @@
 ## Configurar prettier
 
 ```console
-me@land:~$ npm i prettier husky eslint
+me@land:~$ npm i -D prettier husky eslint
 ```
 
 Agrega al archivo **package.json** lo siguiente:
