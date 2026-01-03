@@ -1,18 +1,24 @@
-# Prettier configuration
-
-printWidth: 1000
-singleQuote: true
-tabWidth: 4
-useTabs: false
-
-# js and ts rules:
-arrowParens: avoid
-
-# jsx and tsx rules:
-bracketSameLine: true
-
-# java rules:
-overrides:
-  - files: "*.java"
-    options:
-      tabWidth: 4
+{
+    "printWidth": 1000,
+    "singleQuote": true,
+    "tabWidth": 4,
+    "useTabs": false,
+    "arrowParens": "avoid",
+    "bracketSameLine": true,
+    "overrides": [
+        {
+            "files": "*.java",
+            "options": {
+                "tabWidth": 4
+            }
+        },
+        {
+            "files": ["*.yml", "*.yaml"],
+            "options": {
+                "tabWidth": 2,
+                "singleQuote": false,
+                "proseWrap": "preserve"
+            }
+        }
+    ]
+}
